@@ -1,0 +1,29 @@
+.add-user, .user_list {border: 1px solid #C4C4C4;padding: 10px 20px;}
+.add-user h6,.user_list h6{line-height: 24px;font-weight: 700; border-bottom: 1px solid #C4C4C4}
+.add-user table, .user_list table {margin: 10px 0;width: 100%}
+.add-user table tr, .user_list table tr{border-bottom: 1px dotted #c0c0c0;line-height: 42px;}
+.add-user table tr td:nth-child(1){text-align: right;width: 80px;}
+.add-user table tr td:nth-child(2){padding-left: 20px;}
+
+.add-user table input[type='text'] {height: 32px;width: 100%; outline: none}
+.add-user table input[type='password'] {height: 32px;width: 100%; outline: none}
+.add-user table input[type='radio'] {height: 16px; width: 16px;}
+
+.add-user p{text-align: center;color: red}
+
+.add-user-btn{width: 240px;height:42px;;margin: 30px auto}
+.add-user-btn input[type="submit"]{width: 100%;height:100%;font-size: 14px;background-color: #4C8FE0}
+
+
+
+.search-input {outline: none; border: 1px solid #E0E0E0;width: 190px;height: 24px;padding: 0 10px;
+    border-top-left-radius : 12px; border-bottom-left-radius : 12px;
+    background: url("/resource/image/search.png") right center no-repeat content-box;background-size: 20px;}
+.search-input+.search-type{outline: none; border: 1px solid #E0E0E0;width: 90px;height: 26px;padding:0 5px;margin-left: -5px;
+    border-top-right-radius : 13px; border-bottom-right-radius : 13px;}
+
+.search-box{margin-top:10px;}
+
+.add-user-button{width: 80px;height: 24px;background-color: #65A4C5;display: inline-block;color: #fff;text-align: center;
+    line-height: 24px;border:1px solid #5593B2;border-radius: 12px; margin:0 10px;}
+

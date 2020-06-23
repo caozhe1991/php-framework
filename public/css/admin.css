@@ -1,0 +1,85 @@
+.left{float: left;width: 200px; border-right: 1px solid #CECECE;background-color: #F9F9F9;height: 100%;}
+.left .logo{margin: 50px auto 30px; width: 150px;}
+.left .admin, .left .logout {margin-left: 25px; line-height: 24px;padding-left: 26px; display: inline-block}
+.left .admin {background: url("/image/002.png") no-repeat left center; }
+.left .logout{background: url("/image/003.png") no-repeat left center; }
+
+.left ul{margin-top: 50px;}
+.left ul li{line-height: 36px;background: url("/image/004.png") no-repeat 25px center;padding-left: 55px;font-size: 14px;
+    font-weight: 700;cursor: pointer;}
+.left ul li a{color: #2C2C2C}
+.left .on { background: url("/image/005.png") no-repeat 25px center #4C8FE0;}
+.left .on a{color: #F7FAFC;}
+
+.right {float: left;width: calc(100% - 203px);height: 100%;overflow-y: auto;overflow-x: hidden}
+#Box{height: 100%}
+
+
+/* 每个页面都有一个外围Box */
+.content-box {margin: 20px;}
+
+
+/* 首页待解决问题，也可用于反馈信息内页中 */
+.dai-jie-jue {border: 1px solid #C4C4C4;padding: 10px 20px;}
+.dai-jie-jue h6 {line-height: 24px;font-weight: 700; border-bottom: 1px solid #C4C4C4}
+.dai-jie-jue table {width: 100%;margin-top: 10px;table-layout: fixed;}
+.dai-jie-jue table th{height: 36px;background-color: #E0E0E0}
+.dai-jie-jue table tbody tr{border-bottom: 1px dotted #E0E0E0;line-height: 32px;text-align: center}
+.dai-jie-jue table tbody td{overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
+
+/* 分页样式 */
+
+
+.pagination li{ float: left; margin-top: 20px;border: 1px solid #C4C4C4;border-left: none}
+.pagination ul li:first-child{border-left: 1px solid #C4C4C4}
+.pagination ul{ display: flex;justify-content: center;align-items: center;}
+
+.pagination li a{display: block;width: 28px;height: 28px;line-height: 28px;text-align: center;color: #404040}
+.pagination .on {background-color: #4C8FE0}
+.pagination li a:hover{background-color: #4C8FE0}
+
+/*鼠标经过tr的样式*/
+.on-mouse-move:hover {transition: background-color 0.15s; background-color: #F2F2F2}
+
+
+
+
+/*小标题，加粗带下划线*/
+.title {line-height: 24px; font-weight: bolder; border-bottom: 1px solid #C4C4C4; color: #2C2C2C;}
+.title a{color: inherit;}
+.title a:hover{color: #7E7E7E;}
+
+table.list{width: 100%; /*text-align: center*/}
+table.list td:first-child{text-align: center}
+/*table.list td:nth-child(5){ text-align: left}*/
+table.list tr{border-bottom: 1px dashed #C4C4C4}
+
+table.list thead tr{line-height: 42px;}
+table.list tbody tr{line-height: 32px;}
+
+.menus-bar{margin-top: 8px;}
+
+.link-button{padding:0 12px; height:24px; background-color: #65A4C5;display: inline-block;color: #fff;text-align: center;
+    line-height: 24px;border:1px solid #5593B2;border-radius: 12px; margin:0 10px;}
+.link-button:hover{line-height: 22px;}
+
+a.submit-button{display: block; line-height: 42px;background-color: #65A4C5; text-align: center;color: #fff;transition: background-color 0.3s}
+a.submit-button:hover{ background-color: #468EAF}
+a.submit-button:active{background-color: #297195;}
+
+table.input-form-one{width: 100%}
+table.input-form-one tr{border-bottom: 1px dashed #E0E0E0; line-height: 42px}
+table.input-form-one td:first-child{text-align: right}
+table.input-form-one td:nth-child(2){padding-left: 12px;}
+
+table.input-form-one input[type="text"]{outline: none;  height: 32px; width: 100%; }
+table.input-form-one input[type="text"]:disabled{background-color: #F9F9F9;}
+table.input-form-one .disabled{background-color: #F9F9F9}
+
+table.input-form-one select{outline: none;  height: 32px; padding:0 10px 0 5px }
+
+
+table.input-form-two { width: 100%}
+table.input-form-two label{display: block; font-size: 11px; color: #A5A5A5;line-height: 24px; margin-top: 12px; padding-left: 4px;}
+table.input-form-two input[type="text"]{outline: none; border: 1px solid #E0E0E0; height: 24px; width: 100%;}
+table.input-form-two input[type="text"]:disabled{background-color: #F2F2F2;}

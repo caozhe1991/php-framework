@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* JS窗口的遮罩窗口 window */
+div.js-window {border: 1px solid #4C8FE0; position: relative; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: #ffffff;}
+div.js-window h2.window-title{padding-left: 8px; background-color:#4881C6; line-height: 24px; font-size: 14px; font-weight: bold; color: #ffffff; letter-spacing: 2px;}
+div.js-window a.window-button{padding: 0 12px; color: #4881C6;}
+
+
+div.wtm-progress {border: 1px solid #b2cdef; position: relative; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: #ffffff; width: 260px; border-radius: 5px;}
+div.wtm-progress span{display: block;}
+div.wtm-progress p{text-align: center; color: #666666;line-height: 35px;}
+div.wtm-progress span.wtm-progress-box{position: relative; width: 200px; height: 24px; background-color: #D8F0FC; margin: 15px 30px 0;border-radius: 12px; overflow: hidden; border: 1px solid #ccedff}
+div.wtm-progress span.wtm-progress-bar{position: absolute; width: 0; height: 100%; left: 0; background-color: #1FB2FF; transition: width 1s;}
+div.wtm-progress span.wtm-progress-num{ position: absolute; width: 100%; text-align: center; line-height: 24px;color: #ffffff; box-shadow: 0 0 10px 0 white inset;}

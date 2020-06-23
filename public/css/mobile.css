@@ -1,0 +1,6 @@
+table.input-form-two { width: 100%}
+table.input-form-two label{display: block; font-size: 0.8rem; color: #A5A5A5;line-height: 1.4rem; margin-top: 0.5rem; padding-left: 0.3rem;}
+table.input-form-two input[type="text"]{outline: none; border: 1px solid #E0E0E0; height: 2.2rem; width: 100%;font-size: 0.8rem;padding-left: 0.3rem}
+table.input-form-two input[type="text"]:disabled{background-color: #F2F2F2;}
+
+a.link-button{display:block; line-height: 2.8rem; text-align: center;background-color: #B9DDFB;color: #2C2C2C;border-radius: 5px;}
